@@ -36,8 +36,3 @@ class SatData:
                         writing_mean = self._sat_data["data"][13]
                         outfile.write(dbn + "," + school_name + "," + test_takers + "," + reading_mean +
                                       "," + math_mean + "," + writing_mean + "\n")
-
-
-sd = SatData()
-dbns = ["02M303", "02M294", "01M450", "02M418"]
-sd.save_as_csv(dbns)
