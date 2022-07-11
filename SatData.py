@@ -16,7 +16,7 @@ class SatData:
 
         self._sat_data = sat_data_dict
 
-    def sav_as_csv(self, dbn_list):
+    def save_as_csv(self, dbn_list):
         """___"""
 
         dbn_list.sort()
